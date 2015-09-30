@@ -17,9 +17,17 @@ public static partial CSPack {
   
   public class Packer_k : PackerBase {
     public static object Unpack(Byte[] src, int offset, out int consumed)
-    { }
+    {
+      // src : Unpack이 요청된 전체 바이트 배열입니다.
+      // offset : src에 대한 현재 cursor입니다.
+      // consumed : 이번 Unpack에서 몇 바이트를 사용했는지 기록해야 합니다.
+      // return : 바이트 배열로부터 생성해낸 오브젝트를 반환해야 합니다.
+    }
     public static Byte[] Pack(object obj)
-    { }
+    {
+      // obj : Pack 해야 하는 대상 오브젝트입니다.
+      // return : obj를 바이트 배열로 변환한 결과를 반환해야 합니다.
+    }
   }
 }
 ```
