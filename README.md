@@ -8,6 +8,15 @@ http://ruby-doc.org/core-2.2.0/Array.html#method-i-pack
 <br>
 작업중
 
+예시
+----
+```c#
+var objs = new List<object> { 1234, "asdf" };
+var packed = objs.Pack("Np");
+
+var unpacked = packed.Unpack("Np");
+```
+
 디렉티브 추가하기
 ----
 CSPack은 partial 클래스이며, CSPack 아래에 Packer 클래스를 구현하면 자동으로 인식됩니다.<br>
