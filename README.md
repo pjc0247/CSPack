@@ -1,6 +1,6 @@
 CSPack
 ====
-Ruby pack/unpack for .Net
+Ruby compatible pack/unpack for .Net
 <br>
 http://ruby-doc.org/core-2.2.0/Array.html#method-i-pack
 
